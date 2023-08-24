@@ -6,6 +6,6 @@
     <title>Admin Company Profile</title>
 </head>
 <body>
-    
+    <h1>Asyam</h1>
 </body>
 </html>
