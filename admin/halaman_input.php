@@ -36,8 +36,8 @@ if (isset($_POST['simpan'])) {
 if ($error) {
 ?>
     <div class="alert alert-danger" role="alert">
-        <?php echo $error?>
-    </div>  
+        <?php echo $error ?>
+    </div>
 <?php
 }
 ?>
@@ -45,8 +45,8 @@ if ($error) {
 if ($sukses) {
 ?>
     <div class="alert alert-primary" role="alert">
-        <?php echo $sukses?>
-    </div>  
+        <?php echo $sukses ?>
+    </div>
 <?php
 }
 ?>
@@ -54,19 +54,19 @@ if ($sukses) {
     <div class="mb-3 row">
         <label for="judul" class="col-sm-2 col-form-label">Judul</label>
         <div class="col-sm-10">
-            <input type="text" class="form-control-" id="judul" value="<?php echo $judul ?>" name="judul">
+            <input type="text" class="form-control" id="judul" value="<?php echo $judul ?>" name="judul">
         </div>
     </div>
     <div class="mb-3 row">
         <label for="kutipan" class="col-sm-2 col-form-label">Kutipan</label>
         <div class="col-sm-10">
-            <input type="text" class="form-control-" id="kutipan" value="<?php echo $kutipan ?>" name="kutipan">
+            <input type="text" class="form-control" id="kutipan" value="<?php echo $kutipan ?>" name="kutipan">
         </div>
     </div>
     <div class="mb-3 row">
         <label for="isi" class="col-sm-2 col-form-label">Isi</label>
         <div class="col-sm-10">
-            <textarea name="isi" class="form-control"><?php echo $isi ?></textarea>
+            <textarea name="isi" class="form-control" id="summernote"><?php echo $isi ?></textarea>
         </div>
     </div>
     <div class="mb-3 row">
