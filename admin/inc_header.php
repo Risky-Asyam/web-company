@@ -16,6 +16,11 @@ include("../inc/inc_koneksi.php");
 
     <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.js"></script>
+
+    <link href="../css/raw.githubusercontent.com_apih_summernote-image-list_master_summernote-image-list.min.css">
+    <script src="../js/raw.githubusercontent.com_apih_summernote-image-list_master_summernote-image-list.min.js"></script>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
 </head>
 
 <body class="container">
